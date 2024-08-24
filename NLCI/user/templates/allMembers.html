@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Members</h1>
+<ul>
+    {% for x in myMembers %}
+    <li>Name: {{x.fname}} {{x.lname}}<br>
+    Phone: {{x.phone}} <br> DOB: {{x.dob}}</li>
+    {% endfor %}
+</ul>
+{% include "footer.html" %}
+</body>
+</html>
