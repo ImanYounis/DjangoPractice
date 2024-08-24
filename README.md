@@ -1,0 +1,1 @@
+  This is practice of Django on PyCharm, learnt how to create project, make migrations for auto table creation from model classes, create auto-forms using Django-admin, how to make connection with sqlite, mySQL and how to customize forms etc.
